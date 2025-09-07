@@ -311,8 +311,8 @@ namespace StudentManagementSystem.DoublyLinkedList
 
         private void DisplayDetails(Student s)
         {
-            Console.WriteLine($"ID: {s.Id}\n Name: {s.Name}\n Course: {s.Course}\n Year: {s.YearLevel}\n GPA: {s.GPA}\n");
-            Console.WriteLine($"School ID: {s.SchoolId}\n School Name: {s.SchoolName}\n Address: {s.SchoolAddress}\n");
+            Console.WriteLine($"ID: {s.Id}\nName: {s.Name}\nCourse: {s.Course}\nYear: {s.YearLevel}\nGPA: {s.GPA}\n");
+            Console.WriteLine($"School ID: {s.SchoolId}\nSchool Name: {s.SchoolName}\nAddress: {s.SchoolAddress}\n");
         }
     }
 }
